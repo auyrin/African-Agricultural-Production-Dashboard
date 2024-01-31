@@ -25,3 +25,9 @@ the dataset was gotten from data.world
   - variables 1: previous year value, which i got with the sameperiodlastyear function
   - variable 2: percentage change per year, which i got by dividing the difference of this year and last year by last year. then used the format function to display their values in percentages.
 - then i created a field value to help me color code these changes (positive -> green, negative -> red, neutral -> gray). again using the switch function.
+## problems
+- some of the rows have names like roots and tubers instead of potatoes/cassavas/yams etc.
+  - while i could change every other root and tuber to be be labeled as such instead of their respective names, I considered it as unnecessary for what i was trying to achieve
+  - also changing every different crop to there respective blanket name would have been tiresome at the time of making this dashboard, so i decided to skip it.
+- some countries have blank/zero production according to our dataset.
+  - i could have removed those countries from our dataset, but decided not to. so as not to compromise the intergrity of my data by accident.
